@@ -1,4 +1,6 @@
 @import "./sections/header.css";
+@import "./sections/welcome-section.css";
+
 @import "./variables.css";
 
 @font-face {

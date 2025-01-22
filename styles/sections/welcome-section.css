@@ -1,0 +1,43 @@
+.welcome-section {
+  position: relative;
+  padding: 32px;
+  height: 100dvh;
+  background: var(--page-background-color);
+}
+
+.welcome-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../../assets/images/noise.webp");
+  opacity: 0.15;
+}
+
+.welcome-section-animation {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background: url(../../assets/images/hero-background.jpg);
+  background-size: cover;
+}
+
+.nav-bar {
+  position: absolute;
+  bottom: 32px;
+  width: calc(100% - 64px);
+  display: flex;
+  justify-content: space-between;
+  padding: 24px;
+  background: transparent;
+}
+
+.nav-bar p{
+    background: transparent;
+    color:var(--white);
+    list-style: 16px;
+    letter-spacing: 1px;
+}
