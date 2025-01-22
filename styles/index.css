@@ -1,9 +1,14 @@
 @import "./sections/header.css";
 @import "./sections/welcome-section.css";
-
+@import "./sections/mobile-menu.css";
 @import "./variables.css";
 
 @font-face {
   font-family: "PP Neue Montreal Mono";
   src: url("../assets/fonts/pp-neue-montreal-mono-book.ttf");
+}
+
+@font-face {
+  font-family: "PP Neue Machina";
+  src: url("../assets/fonts/PPNeueMachina-Regular.otf");
 }

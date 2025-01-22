@@ -16,13 +16,74 @@
   opacity: 0.15;
 }
 
-.welcome-section-animation {
+.welcome-section-content {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  align-items: flex-end;
   height: 100%;
   background: url(../../assets/images/hero-background.jpg);
   background-size: cover;
+}
+
+.animation-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  background: transparent;
+  position: relative;
+  /* animation: welcome-animation 5s infinite linear; */
+}
+
+.speakers-images {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  height: 75vh;
+  background-color: transparent;
+}
+
+.speakers-images img {
+  height: 100%;
+  background: transparent;
+}
+
+.text-over-speakers {
+  background: transparent;
+  display: flex;
+  gap: 40px;
+}
+
+.text-over-speakers > p {
+  font-family: "PP Neue Machina";
+  font-size: 120px;
+  line-height: 144px;
+  letter-spacing: -5px;
+  text-align: center;
+  color: var(--white);
+  background: transparent;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.text-over-speakers img {
+  width: 100px;
+  background: url(../../assets/images/welcome-animation-sticker.webp);
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-right: 40px;
+  margin-top: 0;
+  z-index: 2;
+}
+
+@keyframes welcome-animation {
+  0% {
+    transform: translate(0);
+  }
+
+  100% {
+    transform: translate(-100%);
+  }
 }
 
 .nav-bar {
@@ -35,9 +96,73 @@
   background: transparent;
 }
 
-.nav-bar p{
-    background: transparent;
-    color:var(--white);
-    list-style: 16px;
+.nav-bar p {
+  background: transparent;
+  color: var(--white);
+  font-size: 16px;
+  letter-spacing: 1px;
+  z-index: 4;
+}
+
+.mobile-header-title {
+  display: none;
+}
+
+.mobile-register-button {
+  display: none;
+}
+
+@media (max-width: 768px) {
+  .welcome-section {
+    padding: 0px;
+  }
+
+  .animation-container {
+    height: 60vh;
+    overflow: hidden;
+  }
+
+  .text-over-speakers > p {
+    font-size: 60px;
+    line-height: 72px;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .mobile-register-button {
+    display: flex;
+    width: calc(100% - 32px);
+    padding: 20px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    background-color: var(--white);
+    color: #121212;
+    font-family: "PP Neue Montreal Mono";
     letter-spacing: 1px;
+    border: none;
+    position: absolute;
+    bottom: 122px;
+    left: 16px;
+    z-index: 5;
+
+    text-transform: uppercase;
+  }
+
+  .mobile-header-title {
+    display: block;
+    width: calc(100% - 32px);
+    color: var(--white);
+    text-align: center;
+    font-family: "PP Neue Montreal Mono";
+    line-height: 16px;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 40px;
+    left: 16px;
+    background: transparent;
+    z-index: 5;
+  }
 }
