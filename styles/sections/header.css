@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: var(--page-background-color);
+}
+
+.header {
+  position: fixed;
+  top: 32px;
+  margin: 0 32px;
+  width: calc(100% - 64px);
+  padding: 24px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 1000;
+}
