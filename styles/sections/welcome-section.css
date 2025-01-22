@@ -30,7 +30,6 @@
   justify-content: center;
   align-items: center;
   height: 75vh;
-  background: transparent;
   position: relative;
   /* animation: welcome-animation 5s infinite linear; */
 }
@@ -40,16 +39,13 @@
   position: absolute;
   z-index: 1;
   height: 75vh;
-  background-color: transparent;
 }
 
 .speakers-images img {
   height: 100%;
-  background: transparent;
 }
 
 .text-over-speakers {
-  background: transparent;
   display: flex;
   gap: 40px;
 }
@@ -61,7 +57,6 @@
   letter-spacing: -5px;
   text-align: center;
   color: var(--white);
-  background: transparent;
   z-index: 2;
   overflow: hidden;
 }
@@ -74,6 +69,17 @@
   margin-right: 40px;
   margin-top: 0;
   z-index: 2;
+}
+
+.animation-container,
+.speakers-images,
+.speakers-images img,
+.text-over-speakers,
+.text-over-speakers > p,
+.nav-bar,
+.nav-bar p,
+.mobile-header-title {
+  background: transparent;
 }
 
 @keyframes welcome-animation {
@@ -93,38 +99,36 @@
   display: flex;
   justify-content: space-between;
   padding: 24px;
-  background: transparent;
 }
 
 .nav-bar p {
-  background: transparent;
   color: var(--white);
   font-size: 16px;
   letter-spacing: 1px;
   z-index: 4;
 }
-
+.mobile-register-button,
 .mobile-header-title {
   display: none;
 }
 
-.mobile-register-button {
-  display: none;
-}
-
 @media (max-width: 768px) {
+  .header {
+    padding: 24px 0;
+  }
   .welcome-section {
     padding: 0px;
   }
 
   .animation-container {
-    height: 60vh;
+    height: 75vh;
     overflow: hidden;
   }
 
   .text-over-speakers > p {
-    font-size: 60px;
-    line-height: 72px;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -5.025px;
   }
 
   .nav-bar {
@@ -139,7 +143,7 @@
     align-items: center;
     gap: 7px;
     background-color: var(--white);
-    color: #121212;
+    color: var(--black-shade);
     font-family: "PP Neue Montreal Mono";
     letter-spacing: 1px;
     border: none;
@@ -147,7 +151,6 @@
     bottom: 122px;
     left: 16px;
     z-index: 5;
-
     text-transform: uppercase;
   }
 
@@ -162,7 +165,6 @@
     position: absolute;
     bottom: 40px;
     left: 16px;
-    background: transparent;
     z-index: 5;
   }
 }
