@@ -1,0 +1,84 @@
+.conf-statistics {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 56px;
+  background-color: var(--page-background-color);
+  position: relative;
+}
+
+.conf-statistics::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: url("../../assets/images/noise.webp");
+  opacity: 0.15;
+}
+
+.statistics-wrapper {
+  display: flex;
+}
+
+.title-and-image {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+  width: 50%;
+}
+
+.title-and-image p {
+  color: var(--black-shade-2);
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.duck-vinyl-image-wrapper {
+  padding: 10px 160px 200px 10px;
+}
+
+.duck-vinyl-image {
+  position: relative;
+  overflow: visible;
+  width: 380px;
+  height: 400px;
+}
+
+.vinyl-wrapper-container {
+  position: absolute;
+  bottom: -20%;
+  right: -20%;
+  height: 260px;
+  width: 260px;
+  overflow: hidden;
+}
+
+.vinyl-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.vinyl-wrapper img {
+  width: 100%;
+  height: 100%;
+}
+
+.vinyl-wrapper svg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.duck-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info-and-statistics {
+  display: flex;
+  flex-direction: column;
+  gap: 120px;
+}
