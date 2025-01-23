@@ -1,6 +1,7 @@
 :root {
-  --page-background-color: #f5ede1;
-  --light-gray-color: #eaeaea;
-  --white: #fff;
-  --black-shade: #121212;
+    --page-background-color: #f5ede1;
+    --location-section-background-color: #065852;
+    --light-gray-color: #eaeaea;
+    --white: #fff;
+    --black-shade: #121212;
 }

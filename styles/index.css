@@ -4,6 +4,9 @@
 @import "./sections/hero/hero.css";
 @import "./sections/hero/mobile-menu.css";
 @import "./sections/location/location.css";
+@import "./sections/location/location-info.css";
+@import "./sections/location/location-date.css";
+@import "./sections/location/stamp.css";
 
 @font-face {
     font-family: "PP Neue Montreal Mono";
