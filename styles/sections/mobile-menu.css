@@ -24,16 +24,6 @@
   display: none;
 }
 
-.mobile-header,
-.mobile-header p,
-.mobile-header .x-button,
-.mobile-nav,
-.mobile-nav a,
-.mobile-menu svg,
-.mobile-menu-bottom {
-  background: transparent;
-}
-
 .mobile-header {
   display: flex;
   justify-content: space-between;

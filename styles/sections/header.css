@@ -12,13 +12,6 @@
   color: var(--white);
 }
 
-.header,
-.header > *,
-.header-conf-info span,
-.hamburger-icon {
-  background: transparent;
-}
-
 .header-conf-info {
   line-height: 16px;
 }

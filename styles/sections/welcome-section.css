@@ -63,23 +63,11 @@
 
 .text-over-speakers img {
   width: 100px;
-  background: url(../../assets/images/welcome-animation-sticker.webp);
   background-size: contain;
   background-repeat: no-repeat;
   margin-right: 40px;
   margin-top: 0;
   z-index: 2;
-}
-
-.animation-container,
-.speakers-images,
-.speakers-images img,
-.text-over-speakers,
-.text-over-speakers > p,
-.nav-bar,
-.nav-bar p,
-.mobile-header-title {
-  background: transparent;
 }
 
 @keyframes welcome-animation {
