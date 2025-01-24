@@ -2,7 +2,7 @@
 @import "./sections/hero.css";
 @import "./sections/mobile-menu.css";
 @import "./sections/definitions.css";
-@import "./sections/conf-statistics.css";
+@import "./sections/conf-statistics/conf-statistics.css";
 @import "./variables.css";
 
 @font-face {
