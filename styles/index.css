@@ -1,4 +1,7 @@
 @import "./sections/conf-statistics/conf-statistics.css";
+@import "./sections/conf-statistics/title-and-image.css";
+@import "./sections/conf-statistics/info-and-statistics.css";
+@import "./sections/conf-statistics/gallery.css";
 @import "./variables.css";
 @import "./definitions.css";
 @import "./sections/hero/header.css";
