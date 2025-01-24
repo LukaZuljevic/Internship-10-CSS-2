@@ -1,16 +1,20 @@
-@import "./sections/header.css";
-@import "./sections/hero.css";
-@import "./sections/mobile-menu.css";
-@import "./sections/definitions.css";
 @import "./sections/conf-statistics/conf-statistics.css";
 @import "./variables.css";
+@import "./definitions.css";
+@import "./sections/hero/header.css";
+@import "./sections/hero/hero.css";
+@import "./sections/hero/mobile-menu.css";
+@import "./sections/location/location.css";
+@import "./sections/location/location-info.css";
+@import "./sections/location/location-date.css";
+@import "./sections/location/stamp.css";
 
 @font-face {
-  font-family: "PP Neue Montreal Mono";
-  src: url("../assets/fonts/pp-neue-montreal-mono-book.ttf");
+    font-family: "PP Neue Montreal Mono";
+    src: url("../assets/fonts/pp-neue-montreal-mono-book.ttf");
 }
 
 @font-face {
-  font-family: "PP Neue Machina";
-  src: url("../assets/fonts/PPNeueMachina-Regular.otf");
+    font-family: "PP Neue Machina";
+    src: url("../assets/fonts/PPNeueMachina-Regular.otf");
 }
