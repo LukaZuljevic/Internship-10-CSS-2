@@ -1,5 +1,6 @@
 @import "./variables.css";
 @import "./definitions.css";
+@import "./common.css";
 @import "./sections/hero/header.css";
 @import "./sections/hero/hero.css";
 @import "./sections/hero/mobile-menu.css";
@@ -7,6 +8,7 @@
 @import "./sections/location/location-info.css";
 @import "./sections/location/location-date.css";
 @import "./sections/location/stamp.css";
+@import "./sections/sponsors/sponsors.css";
 
 @font-face {
     font-family: "PP Neue Montreal Mono";
