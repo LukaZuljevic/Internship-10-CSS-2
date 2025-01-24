@@ -4,9 +4,9 @@
     --white-color: #fff;
     --orange-color: #ff5b46;
     --black-shade: #121212;
-  --black-shade-2: #171615;
-  --info-text-color: rgba(23, 22, 21, 0.7);
-  --red-stat-color: #ff482f;
+    --black-shade-2: #171615;
+    --info-text-color: rgba(23, 22, 21, 0.7);
+    --red-stat-color: #ff482f;
     --page-background-color: #f5ede1;
     --location-section-background-color: #065852;
 }

@@ -62,7 +62,7 @@
     width: 115%;
 }
 
-.section-seperator {
+.location-section .section-seperator {
     position: absolute;
     background-color: var(--location-section-background-color);
     transform: translateY(-50%);
@@ -71,7 +71,7 @@
     width: 100%;
 }
 
-.section-seperator::before {
+.location-section .section-seperator::before {
     content: "";
     background-image: url(/assets/images/noise.webp);
     opacity: 0.15;
