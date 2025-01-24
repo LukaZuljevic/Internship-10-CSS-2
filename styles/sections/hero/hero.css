@@ -67,7 +67,7 @@
     line-height: 144px;
     letter-spacing: -5px;
     text-align: center;
-    color: var(--white);
+    color: var(--white-color);
     z-index: 2;
     overflow: hidden;
 }
@@ -98,7 +98,7 @@
 }
 
 .nav-bar p {
-    color: var(--white);
+    color: var(--white-color);
     font-size: 16px;
     letter-spacing: 1px;
     z-index: 4;
@@ -185,7 +185,7 @@
         justify-content: center;
         align-items: center;
         gap: 7px;
-        background-color: var(--white);
+        background-color: var(--white-color);
         color: var(--black-shade);
         font-family: "PP Neue Montreal Mono";
         letter-spacing: 1px;
@@ -200,7 +200,7 @@
     .mobile-header-title {
         display: block;
         width: calc(100% - 32px);
-        color: var(--white);
+        color: var(--white-color);
         text-align: center;
         font-family: "PP Neue Montreal Mono";
         line-height: 16px;

@@ -32,7 +32,7 @@
 }
 
 .stamp-bottom h2 {
-    color: #ff482f;
+    color: var(--orange-color);
     font-size: 48px;
     font-weight: 500;
     line-height: 48px;
@@ -58,7 +58,6 @@
 }
 
 .stamp-footer__text h3 {
-    font-size: 14px;
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 1px;
@@ -71,7 +70,6 @@
     background-image: url(/assets/images/stamp-paQH99O8.svg);
     background-repeat: no-repeat;
     background-size: cover;
-    display: flex;
     justify-content: center;
     align-items: center;
     transform: rotate(90deg);

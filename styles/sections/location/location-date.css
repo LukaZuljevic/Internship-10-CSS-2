@@ -5,7 +5,7 @@
 }
 
 .location-section__date p {
-    color: #fff;
+    color: var(--white-color);
     text-align: center;
     font-feature-settings: "ss12" on;
     font-family: PP Neue Machina;

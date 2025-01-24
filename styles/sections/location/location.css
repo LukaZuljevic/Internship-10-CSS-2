@@ -33,7 +33,7 @@
 .location-section__content h1 {
     position: sticky;
     top: 90px;
-    color: #eaeaea;
+    color: var(--light-gray-color);
     text-align: center;
     font-weight: 500;
     font-size: 284.57px;
@@ -63,7 +63,7 @@
 }
 
 .section-seperator {
-    position: relative;
+    position: absolute;
     background-color: var(--location-section-background-color);
     transform: translateY(-50%);
     mask-image: url(/assets/images/section-seperator.webp);

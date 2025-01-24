@@ -11,9 +11,8 @@
 
 .location-section__info__general h2 {
     text-wrap: nowrap;
-    color: #ffffffb3;
+    color: var(--gray-color);
     font-family: PP Neue Montreal Mono, sans-serif;
-    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -25,13 +24,10 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 40px;
-    height: 20px;
     border-radius: 50%;
-    background-color: #ff6652;
-    color: #fff;
+    background-color: var(--orange-color);
+    color: var(--white-color);
     font-family: PP Neue Montreal Mono, sans-serif;
-    font-size: 14px;
     font-style: normal;
     font-weight: 500;
     line-height: 16px;
@@ -44,7 +40,7 @@
 .location-section__info > p {
     margin-left: 24px;
     margin-bottom: 56px;
-    color: #ffffffb3;
+    color: var(--gray-color);
     width: 544px;
     font-family: PP Neue Machina, sans-serif;
     font-size: 24px;
@@ -71,9 +67,7 @@
 
     .location-section__info > p {
         width: 100%;
-        margin-bottom: 32px;
-        margin-top: 32px;
-        margin-left: 0;
+        margin: 32px 0;
         font-size: 18px;
         line-height: 26px;
     }
