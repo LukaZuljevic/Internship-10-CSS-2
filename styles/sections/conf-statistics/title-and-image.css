@@ -3,6 +3,8 @@
   flex-direction: column;
   gap: 5rem;
   width: 50%;
+  overflow: visible;
+  min-height: 1000px;
 }
 
 .conf-statistics__title-and-image .statistics-title {
@@ -14,8 +16,14 @@
   font-weight: 600;
 }
 
+
 .duck-vinyl-image-wrapper {
+  position: sticky;
+  top: 32px;
+  height: 30vh;
+  width: 30vh;
   padding: 10px 160px 200px 10px;
+  margin-bottom: 20vw;
 }
 
 .duck-vinyl-image {
@@ -30,7 +38,6 @@
   right: -25%;
   height: 20vw;
   width: 20vw;
-  overflow: hidden;
 }
 
 .vinyl-wrapper {
@@ -56,14 +63,26 @@
   object-fit: cover;
 }
 
+.conf-statistics__info-and-statistics
+  .statistics
+  .duck-vinyl-image-wrapper__bottom-right {
+  position: absolute;
+  bottom: 55%;
+  right: 20%;
+  transform: translate(0, 0) rotate(10deg);
+  width: clamp(6vh, 7vh, 12vh);
+  height: clamp(6vh, 7vh, 12vh);
+  display: none;
+}
+
 @media (max-width: 767px) {
-  .conf-statistics__title-and-image .statistics-title {
+  .conf-statistics__title-and-image {
     display: none;
   }
 
   .conf-statistics__title-and-image {
     position: absolute;
-    bottom: 30%;
+    bottom: 15%;
     right: -5%;
     transform: rotate(10deg);
   }
@@ -80,28 +99,37 @@
     width: 40vw;
     overflow: hidden;
   }
-}
 
-@media (min-width: 732px) and (max-width: 767px) {
-  .conf-statistics__title-and-image {
-    bottom: 22%;
+  .conf-statistics__info-and-statistics
+    .statistics
+    .duck-vinyl-image-wrapper__bottom-right {
+    display: block;
   }
 }
 
-@media (max-width: 358px) {
-  .conf-statistics__title-and-image {
-    bottom: 48%;
-  }
-}
-
-@media (max-width: 248px) {
-  .conf-statistics__title-and-image {
+@media (max-width: 400px) {
+  .conf-statistics__info-and-statistics
+    .statistics
+    .duck-vinyl-image-wrapper__bottom-right {
     bottom: 50%;
+    right: 15%;
   }
 }
 
-@media (max-width: 188px) {
-  .conf-statistics__title-and-image {
-    bottom: 51%;
+@media (max-width: 280px) {
+  .conf-statistics__info-and-statistics
+    .statistics
+    .duck-vinyl-image-wrapper__bottom-right {
+    bottom: 40%;
+    right: 10%;
+  }
+}
+
+@media (max-width: 230px) {
+  .conf-statistics__info-and-statistics
+    .statistics
+    .duck-vinyl-image-wrapper__bottom-right {
+    bottom: 25%;
+    right: 0%;
   }
 }
