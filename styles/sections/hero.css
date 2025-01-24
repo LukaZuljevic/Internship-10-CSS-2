@@ -37,7 +37,7 @@
   align-items: center;
   height: 75vh;
   position: absolute;
-  animation: hero-animation 10s infinite linear;
+  animation: hero-animation 20s infinite linear;
 }
 
 .speakers-images {
@@ -107,59 +107,6 @@
   display: none;
 }
 
-@media (max-width: 768px) {
-  .hero {
-    padding: 0px;
-  }
-
-  .animation-container {
-    height: 75vh;
-  }
-
-  .text-over-speakers > p {
-    font-size: 80px;
-    line-height: 80px;
-    letter-spacing: -5.025px;
-  }
-
-  .nav-bar {
-    display: none;
-  }
-
-  .mobile-register-button {
-    display: flex;
-    width: calc(100% - 32px);
-    padding: 20px 48px;
-    justify-content: center;
-    align-items: center;
-    gap: 7px;
-    background-color: var(--white);
-    color: var(--black-shade);
-    font-family: "PP Neue Montreal Mono";
-    letter-spacing: 1px;
-    border: none;
-    position: absolute;
-    bottom: 122px;
-    left: 16px;
-    z-index: 5;
-    text-transform: uppercase;
-  }
-
-  .mobile-header-title {
-    display: block;
-    width: calc(100% - 32px);
-    color: var(--white);
-    text-align: center;
-    font-family: "PP Neue Montreal Mono";
-    line-height: 16px;
-    letter-spacing: 1px;
-    position: absolute;
-    bottom: 40px;
-    left: 16px;
-    z-index: 5;
-  }
-}
-
 .speakers-images img {
   margin-right: 6%;
 }
@@ -211,7 +158,58 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 768px) {
+  .hero {
+    padding: 0px;
+  }
+
+  .animation-container {
+    height: 75vh;
+  }
+
+  .text-over-speakers > p {
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: -5.025px;
+  }
+
+  .nav-bar {
+    display: none;
+  }
+
+  .mobile-register-button {
+    display: flex;
+    width: calc(100% - 32px);
+    padding: 20px 48px;
+    justify-content: center;
+    align-items: center;
+    gap: 7px;
+    background-color: var(--white);
+    color: var(--black-shade);
+    font-family: "PP Neue Montreal Mono";
+    letter-spacing: 1px;
+    border: none;
+    position: absolute;
+    bottom: 122px;
+    left: 16px;
+    z-index: 5;
+    text-transform: uppercase;
+  }
+
+  .mobile-header-title {
+    display: block;
+    width: calc(100% - 32px);
+    color: var(--white);
+    text-align: center;
+    font-family: "PP Neue Montreal Mono";
+    line-height: 16px;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 40px;
+    left: 16px;
+    z-index: 5;
+  }
+
   .speakers-images img:nth-child(2) {
     margin-right: 6%;
   }
