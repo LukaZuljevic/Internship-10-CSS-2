@@ -1,5 +1,5 @@
 .speaker-section {
-  background: url(../../../assets/images/speaker-background.png);
+  background: url(/assets/images/speaker-background.png);
   background-size: cover;
   background-position: center;
   height: 1571px;
@@ -38,7 +38,7 @@
   }
 
   .speaker-section {
-    background: url(../../../assets/images/speaker-background-mobile.png)
+    background: url(/assets/images/speaker-background-mobile.png)
         lightgray 0px -135.098px / 107.534% 136.074% no-repeat,
       linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
     background-blend-mode: normal, normal, lighten, normal;

@@ -11,14 +11,14 @@
 @import "./sections/location/location-info.css";
 @import "./sections/location/location-date.css";
 @import "./sections/location/stamp.css";
-@import "./sections/speaker-section/speaker.css";
+@import "./sections/speaker/speaker.css";
 
 @font-face {
-    font-family: "PP Neue Montreal Mono";
-    src: url("../assets/fonts/pp-neue-montreal-mono-book.ttf");
+  font-family: "PP Neue Montreal Mono";
+  src: url("../assets/fonts/pp-neue-montreal-mono-book.ttf");
 }
 
 @font-face {
-    font-family: "PP Neue Machina";
-    src: url("../assets/fonts/PPNeueMachina-Regular.otf");
+  font-family: "PP Neue Machina";
+  src: url("../assets/fonts/PPNeueMachina-Regular.otf");
 }
