@@ -39,8 +39,23 @@
   }
 }
 
-@media (min-width: 1125px) and (max-width: 1512px) {
+@media (min-width: 1110px) and (max-width: 1512px) {
   .conf-statistics__gallery {
     flex-wrap: nowrap;
+  }
+
+  .frame-wrapper {
+    width: 20vw;
+    height: auto;
+  }
+
+  .conf-statistics__gallery .frame-wrapper img:nth-child(1) {
+    width: 100%;
+    height: 100%;
+  }
+
+  .conf-statistics__gallery .frame-wrapper img:nth-child(2) {
+    width: 100%;
+    height: 100%;
   }
 }
