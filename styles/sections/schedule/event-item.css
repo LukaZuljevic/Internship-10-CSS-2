@@ -4,7 +4,6 @@
   padding: 36px 64px;
   align-items: center;
   opacity: 0;
-  visibility: hidden;
   animation: fadeIn 0.6s forwards;
 }
 
@@ -91,7 +90,7 @@
     display: flex;
   }
 
-  .schedule-item__info{
+  .schedule-item__info {
     width: 100%;
     align-items: flex-start;
   }
