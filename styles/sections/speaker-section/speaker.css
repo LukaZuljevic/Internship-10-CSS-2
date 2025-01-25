@@ -3,12 +3,12 @@
   background-size: cover;
   background-position: center;
   height: 1571px;
+  padding-top: 500px;
 }
 
 .speaker-section__title {
   position: sticky;
-  top: -20vw;
-  padding-top: 33%;
+  top: 64px;
 }
 
 .speaker-section__title h2 {
@@ -34,11 +34,6 @@
     font-size: 60px;
   }
 }
-@media (min-width: 576px) and (max-width: 981px) {
-  .speaker-section__title {
-    padding-top: 50%;
-  }
-}
 
 @media (max-width: 576px) {
   .speaker-section__title h2 {
@@ -51,6 +46,7 @@
       linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
     background-blend-mode: normal, normal, lighten, normal;
     height: 749px;
+    padding-top: 220px;
   }
 }
 
