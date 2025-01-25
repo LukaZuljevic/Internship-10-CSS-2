@@ -62,27 +62,6 @@
     width: 115%;
 }
 
-.section-seperator {
-    position: absolute;
-    background-color: var(--location-section-background-color);
-    transform: translateY(-50%);
-    mask-image: url(/assets/images/section-seperator.webp);
-    height: 30px;
-    width: 100%;
-}
-
-.section-seperator::before {
-    content: "";
-    background-image: url(/assets/images/noise.webp);
-    opacity: 0.15;
-    top: 0;
-    left: 0;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    pointer-events: none;
-}
-
 .location-section > .dots {
     margin-inline: 55px;
     height: 2px;
