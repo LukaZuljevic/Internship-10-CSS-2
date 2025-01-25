@@ -5,7 +5,6 @@
   background-color: var(--page-background-color);
   position: relative;
   gap: 10vw;
-  overflow: hidden;
 }
 
 .conf-statistics::before {
@@ -24,11 +23,10 @@
   padding-bottom: 1.67vw;
 }
 
-
-
 @media (max-width: 767px) {
   .conf-statistics {
     padding: 6.5vw 4vw;
     gap: 5vw;
+    overflow: hidden;
   }
 }
