@@ -16,7 +16,6 @@
   font-weight: 600;
 }
 
-
 .duck-vinyl-image-wrapper {
   position: sticky;
   top: 32px;
@@ -79,7 +78,6 @@
   .conf-statistics__title-and-image {
     display: none;
   }
-
   .conf-statistics__title-and-image {
     position: absolute;
     bottom: 15%;

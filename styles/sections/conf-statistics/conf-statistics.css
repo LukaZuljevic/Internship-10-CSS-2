@@ -27,5 +27,6 @@
   .conf-statistics {
     padding: 6.5vw 4vw;
     gap: 5vw;
+    overflow: hidden;
   }
 }
