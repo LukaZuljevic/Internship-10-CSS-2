@@ -1,8 +1,12 @@
 .schedule-section {
+  display: flex;
+  flex-direction: column;
+  gap: 98px;
   background-color: var(--page-background-color);
-  height: 100vh;
-  padding: 0 32px;
+  max-height: 250dvh;
+  padding: 32px;
   position: relative;
+  overflow: hidden;
 }
 
 .schedule-section::before {
@@ -15,48 +19,4 @@
   background-image: url(/assets/images/noise-_LsklY-m.webp);
   opacity: 0.15;
   pointer-events: none;
-}
-
-.schedule-section__navigation {
-  display: flex;
-  justify-content: space-between;
-}
-
-.date-nav {
-  display: flex;
-  gap: 8px;
-}
-
-.date-nav input {
-  display: none;
-}
-
-.date-nav input:checked + label {
-  color: var(--red-stat-color);
-  border-bottom: 3px solid var(--red-stat-color);
-}
-
-.schedule-categories {
-  display: flex;
-  gap: 8px;
-  list-style: none;
-}
-
-.schedule-categories input {
-  display: none;
-}
-
-.schedule-categories input:checked + label {
-  color: var(--red-stat-color);
-  border-bottom: 3px solid var(--red-stat-color);
-}
-
-.schedule-section__navigation label {
-  padding: 8px 16px;
-  cursor: pointer;
-  color: var(--black-shade-2);
-  font-weight: 600;
-  font-feature-settings: "ss03" on;
-  line-height: 16px;
-  letter-spacing: 1px;
 }

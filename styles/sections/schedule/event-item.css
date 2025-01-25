@@ -1,0 +1,147 @@
+.schedule-item {
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 64px;
+  align-items: center;
+  opacity: 0;
+  visibility: hidden;
+  animation: fadeIn 0.6s forwards;
+}
+
+.schedule-item__time {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: flex-end;
+}
+
+.schedule-item__time p {
+  display: flex;
+}
+
+.schedule-item__time span {
+  display: none;
+}
+
+.schedule-item__time p:nth-child(1) {
+  color: var(--black-shade-2);
+  font-feature-settings: "ss03" on;
+  font-family: "PP Neue Montreal Mono";
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.schedule-item__time p:nth-child(2) {
+  color: var(--info-text-color-faded);
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.schedule-item__info {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 600px;
+}
+
+.schedule-item__info p {
+  color: var(--info-text-color-faded);
+  font-weight: 600;
+  line-height: 16px;
+  letter-spacing: 1px;
+}
+
+.schedule-item__info__top {
+  display: flex;
+  gap: 16px;
+  align-items: center;
+}
+
+.schedule-item__info__top h3 {
+  color: var(--black-shade-2);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  font-family: "PP Neue Machina";
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: -0.18px;
+}
+
+.plus-icon {
+  width: 20px;
+  height: 20px;
+  margin: 8px;
+}
+
+@media (max-width: 1024px) {
+  .schedule-item {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .schedule-item__time {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .schedule-item__time span {
+    display: flex;
+  }
+
+  .schedule-item__info{
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .plus-icon {
+    display: none;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+  }
+}
+
+.schedule-item:nth-child(1) {
+  animation-delay: 0.2s;
+}
+
+.schedule-item:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.schedule-item:nth-child(5) {
+  animation-delay: 0.6s;
+}
+
+.schedule-item:nth-child(7) {
+  animation-delay: 0.8s;
+}
+
+.schedule-item:nth-child(9) {
+  animation-delay: 1s;
+}
+
+.schedule-item:nth-child(11) {
+  animation-delay: 1.2s;
+}
+
+.schedule-item:nth-child(13) {
+  animation-delay: 1.4s;
+}
+
+.schedule-item:nth-child(15) {
+  animation-delay: 1.6s;
+}

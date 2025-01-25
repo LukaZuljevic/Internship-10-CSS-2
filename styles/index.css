@@ -2,9 +2,9 @@
 @import "./sections/conf-statistics/title-and-image.css";
 @import "./sections/conf-statistics/info-and-statistics.css";
 @import "./sections/conf-statistics/gallery.css";
-@import "./base/variables.css";
-@import "./base/definitions.css";
-@import "./base/main.css";
+@import "./common/variables.css";
+@import "./common/definitions.css";
+@import "./common/main.css";
 @import "./sections/hero/header.css";
 @import "./sections/hero/hero.css";
 @import "./sections/hero/mobile-menu.css";
@@ -14,6 +14,9 @@
 @import "./sections/location/stamp.css";
 @import "./sections/speaker/speaker.css";
 @import "./sections/schedule/schedule.css";
+@import "./sections/schedule/navigation.css";
+@import "./sections/schedule/event-item.css";
+@import "./sections/schedule/framed-image.css";
 
 @font-face {
   font-family: "PP Neue Montreal Mono";
