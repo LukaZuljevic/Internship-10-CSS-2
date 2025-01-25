@@ -11,6 +11,7 @@
 @import "./sections/location/location-info.css";
 @import "./sections/location/location-date.css";
 @import "./sections/location/stamp.css";
+@import "./sections/speaker-section/speaker.css";
 
 @font-face {
     font-family: "PP Neue Montreal Mono";
