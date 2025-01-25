@@ -13,8 +13,6 @@
 }
 
 .sponsors-section__head {
-    position: sticky;
-    top: 0;
     padding-top: 120px;
     display: flex;
     flex-direction: column;
@@ -123,6 +121,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
+    gap: 160px;
 }
 
 .sponsor-medal {
@@ -173,6 +172,17 @@
 .gold-sponsor__footer {
     display: flex;
     justify-content: space-between;
+}
+
+.sponsors__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.sponsors__list > img {
+    width: 344px;
+    height: 127px;
+    object-fit: cover;
 }
 
 @keyframes fade {
