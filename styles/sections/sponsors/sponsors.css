@@ -28,6 +28,7 @@
     letter-spacing: 0.07vw;
     margin-bottom: 1.67vw;
     font-family: "PP Neue Machina";
+    opacity: 0.6;
 }
 
 .sponsors-section__head h1 {
@@ -60,6 +61,7 @@
     color: var(--black-shade-2);
     line-height: 1.67vw;
     margin-bottom: 80px;
+    opacity: 0.6;
 }
 
 .gold-sponsors__list {
@@ -125,9 +127,6 @@
 
     .gold-sponsor__container h3 {
         font-size: 18px;
-        font-weight: 500;
-        line-height: 32px;
-        margin-bottom: 16px;
     }
 
     .gold-sponsor__footer > * {
