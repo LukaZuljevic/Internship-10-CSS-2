@@ -19,7 +19,7 @@
     letter-spacing: 1px;
 }
 
-.location-section__info__general .elipse {
+.location-section__info__general .orange-ellipse {
     margin-left: 266px;
 }
 
@@ -47,7 +47,7 @@
         justify-content: space-between;
     }
 
-    .location-section__info__general > .elipse {
+    .location-section__info__general > .orange-ellipse {
         margin-left: auto;
     }
 
