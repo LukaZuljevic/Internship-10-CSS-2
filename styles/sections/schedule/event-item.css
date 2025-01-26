@@ -100,6 +100,12 @@
   }
 }
 
+@media (max-width:500px) {
+  .schedule-item__time p:nth-child(1) {
+    width: 80px;
+  }
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
