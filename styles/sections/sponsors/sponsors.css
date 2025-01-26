@@ -46,6 +46,7 @@
     align-items: center;
     text-align: center;
     gap: 160px;
+    padding-bottom: 160px;
 }
 
 .sponsor-medal {
@@ -80,6 +81,16 @@
     transform: translate(-50%, -50%) rotate(-90deg);
 }
 
+.gold-sponsor__container .frame-wrapper p {
+    position: absolute;
+    top: 35%;
+    width: 100%;
+    color: var(--white-color);
+    font-weight: bold;
+    font-size: 40px;
+    font-family: "PP Neue Machina";
+}
+
 .gold-sponsor__container h3 {
     font-family: "PP Neue Machina";
     font-size: 24px;
@@ -97,42 +108,6 @@
     justify-content: space-between;
 }
 
-.sponsors__list {
-    display: flex;
-    flex-direction: column;
-}
-
-.sponsors-list__row {
-    display: grid;
-    grid-template-columns: 1fr 2px 1fr 2px 1fr 2px 1fr;
-}
-
-.sponsors-list__row > .dots {
-    width: 10vw;
-    height: 2px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%) rotate(90deg);
-    transform-origin: center;
-    position: relative;
-}
-
-.sponsors__list .sponsor-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.sponsors__list .sponsor-container img {
-    width: 23vw;
-    height: 10vw;
-    object-fit: cover;
-}
-
-.sponsors__list .sponsor-container .dots {
-    width: 90%;
-}
-
 @media (min-width: 1025px) and (max-width: 1514px) {
     .gold-sponsor__container .frame-wrapper {
         width: 20vw;
@@ -142,6 +117,10 @@
     .gold-sponsor__container .frame-wrapper > img:first-child {
         width: 16vw;
         height: 20vw;
+    }
+
+    .gold-sponsor__container .frame-wrapper p {
+        font-size: 2vw;
     }
 
     .gold-sponsor__container h3 {
@@ -184,6 +163,10 @@
     .gold-sponsor__container .frame-wrapper > img:first-child {
         height: 80vw;
         width: 62vw;
+    }
+
+    .gold-sponsor__container .frame-wrapper p {
+        font-size: 10vw;
     }
 }
 
