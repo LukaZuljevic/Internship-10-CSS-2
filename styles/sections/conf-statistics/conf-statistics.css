@@ -1,21 +1,21 @@
 .conf-statistics {
-  display: flex;
-  flex-direction: column;
-  padding: 1.67vw 3.9vw;
-  background-color: var(--page-background-color);
-  position: relative;
-  gap: 10vw;
+    display: flex;
+    flex-direction: column;
+    padding: 1.67vw 3.9vw;
+    background-color: var(--page-background-color);
+    position: relative;
+    gap: 10vw;
 }
 
 .conf-statistics::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url("../../../assets/images/noise.webp");
-  opacity: 0.15;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url("../../../assets/images/noise.webp");
+    opacity: 0.15;
 }
 
 .conf-statistics__top-wrapper {
@@ -24,9 +24,9 @@
 }
 
 @media (max-width: 767px) {
-  .conf-statistics {
-    padding: 6.5vw 4vw;
-    gap: 5vw;
-    overflow: hidden;
-  }
+    .conf-statistics {
+        padding: 6.5vw 4vw;
+        gap: 5vw;
+        overflow: hidden;
+    }
 }

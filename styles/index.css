@@ -17,6 +17,9 @@
 @import "./sections/schedule/navigation.css";
 @import "./sections/schedule/event-item.css";
 @import "./sections/schedule/framed-image.css";
+@import "./sections/sponsors/sponsors.css";
+@import "./sections/sponsors/sponsors-animation.css";
+@import "./sections/sponsors/sponsors-table.css";
 
 @font-face {
   font-family: "PP Neue Montreal Mono";
