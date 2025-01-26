@@ -19,22 +19,8 @@
     letter-spacing: 1px;
 }
 
-.location-section__info__general h2:last-of-type {
-    padding: 4px 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 50%;
-    background-color: var(--orange-color);
-    color: var(--white-color);
-    font-family: PP Neue Montreal Mono, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    line-height: 16px;
-    letter-spacing: 0.5px;
+.location-section__info__general .elipse {
     margin-left: 266px;
-    width: 53px;
-    height: 24px;
 }
 
 .location-section__info > p {
@@ -61,7 +47,7 @@
         justify-content: space-between;
     }
 
-    .location-section__info__general > h2:last-of-type {
+    .location-section__info__general > .elipse {
         margin-left: auto;
     }
 

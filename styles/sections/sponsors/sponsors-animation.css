@@ -1,0 +1,137 @@
+.sponsors-animation {
+    width: 100%;
+    position: relative;
+    height: 40.96vw;
+}
+
+.sponsors-animation > * {
+    filter: invert(0.8);
+    animation: fade 6s infinite ease-in-out;
+    animation-fill-mode: both;
+    max-height: 10.67vw;
+    max-width: 10.67vw;
+}
+
+.sponsors-animation > img:nth-child(1) {
+    position: absolute;
+    top: 0vw;
+    left: 13.89vw;
+}
+
+.sponsors-animation > img:nth-child(2) {
+    position: absolute;
+    top: -3.33vw;
+    left: 87vw;
+    animation-delay: 1.5s;
+}
+
+.sponsors-animation > img:nth-child(3) {
+    position: absolute;
+    top: 10vw;
+    left: 4vw;
+    animation-delay: 0.5s;
+}
+
+.sponsors-animation > img:nth-child(4) {
+    position: absolute;
+    top: 9vw;
+    left: 45vw;
+    animation-delay: 3.5s;
+}
+
+.sponsors-animation > img:nth-child(5) {
+    position: absolute;
+    top: 5vw;
+    left: 77vw;
+    animation-delay: 2s;
+}
+
+.sponsors-animation > img:nth-child(6) {
+    position: absolute;
+    top: 21vw;
+    left: 33vw;
+    animation-delay: 2.5s;
+}
+
+.sponsors-animation > img:nth-child(7) {
+    position: absolute;
+    top: 17vw;
+    left: 63vw;
+    animation-delay: 1.5s;
+}
+
+.sponsors-animation > img:nth-child(8) {
+    position: absolute;
+    top: 32vw;
+    left: 11vw;
+    animation-delay: 1s;
+}
+
+.sponsors-animation > img:nth-child(9) {
+    position: absolute;
+    top: 25vw;
+    left: 84vw;
+    animation-delay: 3s;
+}
+
+@keyframes fade {
+    0%,
+    100% {
+        opacity: 0;
+    }
+    25%,
+    75% {
+        opacity: 1;
+    }
+}
+
+@media (max-width: 767px) {
+    .sponsors-animation {
+        height: 75vw;
+    }
+
+    .sponsors-animation > img:nth-child(1) {
+        top: 5vw;
+        left: 13.89vw;
+    }
+
+    .sponsors-animation > img:nth-child(2) {
+        top: 0;
+        left: 87vw;
+    }
+
+    .sponsors-animation > img:nth-child(3) {
+        top: 30vw;
+        left: 4vw;
+    }
+
+    .sponsors-animation > img:nth-child(4) {
+        top: 25vw;
+        left: 45vw;
+    }
+
+    .sponsors-animation > img:nth-child(5) {
+        top: 20vw;
+        left: 77vw;
+    }
+
+    .sponsors-animation > img:nth-child(6) {
+        top: 55vw;
+        left: 33vw;
+    }
+
+    .sponsors-animation > img:nth-child(7) {
+        top: 45vw;
+        left: 63vw;
+    }
+
+    .sponsors-animation > img:nth-child(8) {
+        top: 70vw;
+        left: 11vw;
+    }
+
+    .sponsors-animation > img:nth-child(9) {
+        top: 65vw;
+        left: 84vw;
+    }
+}
