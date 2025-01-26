@@ -37,7 +37,7 @@
 }
 
 .dots {
-  width: calc(100% - 32px);
+  width: calc(100% - 64px);
   margin: 0 auto;
   height: 2px;
   background-image: radial-gradient(
