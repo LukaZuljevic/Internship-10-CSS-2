@@ -40,82 +40,6 @@
     font-family: "PP Neue Machina";
 }
 
-.sponsors-animation {
-    width: 100%;
-    position: relative;
-    height: 40.96vw;
-}
-
-.sponsors-animation > * {
-    filter: invert(0.8);
-    animation: fade 6s infinite ease-in-out;
-    animation-fill-mode: both;
-    max-height: 10.67vw;
-    max-width: 10.67vw;
-}
-
-.sponsors-animation > img:nth-child(1) {
-    position: absolute;
-    top: 0vw;
-    left: 13.89vw;
-}
-
-.sponsors-animation > img:nth-child(2) {
-    position: absolute;
-    top: -3.33vw;
-    left: 87vw;
-    animation-delay: 1.5s;
-}
-
-.sponsors-animation > img:nth-child(3) {
-    position: absolute;
-    top: 10vw;
-    left: 4vw;
-    animation-delay: 0.5s;
-}
-
-.sponsors-animation > img:nth-child(4) {
-    position: absolute;
-    top: 9vw;
-    left: 45vw;
-    animation-delay: 3.5s;
-}
-
-.sponsors-animation > img:nth-child(5) {
-    position: absolute;
-    top: 5vw;
-    left: 77vw;
-    animation-delay: 2s;
-}
-
-.sponsors-animation > img:nth-child(6) {
-    position: absolute;
-    top: 21vw;
-    left: 33vw;
-    animation-delay: 2.5s;
-}
-
-.sponsors-animation > img:nth-child(7) {
-    position: absolute;
-    top: 17vw;
-    left: 63vw;
-    animation-delay: 1.5s;
-}
-
-.sponsors-animation > img:nth-child(8) {
-    position: absolute;
-    top: 32vw;
-    left: 11vw;
-    animation-delay: 1s;
-}
-
-.sponsors-animation > img:nth-child(9) {
-    position: absolute;
-    top: 25vw;
-    left: 84vw;
-    animation-delay: 3s;
-}
-
 .sponsors-section__ranking {
     display: flex;
     flex-direction: column;
@@ -209,13 +133,85 @@
     width: 90%;
 }
 
-@keyframes fade {
-    0%,
-    100% {
-        opacity: 0;
+@media (min-width: 1025px) and (max-width: 1514px) {
+    .gold-sponsor__container .frame-wrapper {
+        width: 20vw;
+        height: 16vw;
     }
-    25%,
-    75% {
-        opacity: 1;
+
+    .gold-sponsor__container .frame-wrapper > img:first-child {
+        width: 16vw;
+        height: 20vw;
+    }
+
+    .gold-sponsor__container h3 {
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 32px;
+        margin-bottom: 16px;
+    }
+
+    .gold-sponsor__footer > * {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .sponsor-medal {
+        width: 40vw;
+        height: auto;
+    }
+
+    .medal-title {
+        font-size: 3.2vw;
+        line-height: 3.7333333333vw;
+    }
+
+    .gold-sponsors__list {
+        flex-direction: column;
+        gap: 100px;
+    }
+
+    .gold-sponsor__container {
+        width: 80vw;
+    }
+
+    .gold-sponsor__container .frame-wrapper {
+        width: 80vw;
+        height: 62vw;
+    }
+
+    .gold-sponsor__container .frame-wrapper > img:first-child {
+        height: 80vw;
+        width: 62vw;
+    }
+}
+
+@media (max-width: 767px) {
+    .sponsors-section__head > h1 {
+        font-size: 6.4vw;
+        letter-spacing: -0.2666666667vw;
+        max-width: 80.6666666667vw;
+        line-height: 6vw;
+    }
+
+    .sponsors-section__head > p {
+        font-size: 3.2vw;
+        line-height: 4.2666666667vw;
+        margin-bottom: 4.2666666667vw;
+    }
+
+    .gold-sponsor__container {
+        width: 90vw;
+    }
+
+    .gold-sponsor__container .frame-wrapper {
+        width: 90vw;
+        height: 70vw;
+    }
+
+    .gold-sponsor__container .frame-wrapper > img:first-child {
+        height: 90vw;
+        width: 70vw;
     }
 }

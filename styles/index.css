@@ -14,6 +14,7 @@
 @import "./sections/location/stamp.css";
 @import "./sections/speaker/speaker.css";
 @import "./sections/sponsors/sponsors.css";
+@import "./sections/sponsors/sponsors-animation.css";
 
 @font-face {
     font-family: "PP Neue Montreal Mono";
