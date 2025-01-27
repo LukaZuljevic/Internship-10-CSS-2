@@ -19,8 +19,13 @@
 
 .gallery-section__head > * {
     position: absolute;
-    text-align: center;
-    width: 100%;
+}
+
+.gallery-section__head img {
+    top: 3vw;
+    right: 3vw;
+    height: 5vw;
+    filter: invert(0.15);
 }
 
 .gallery-section__head h1 {
@@ -31,6 +36,8 @@
     top: 50%;
     transform: translateY(-50%);
     color: var(--light-gray-color);
+    text-align: center;
+    width: 100%;
 }
 
 .gallery-section__head p {
@@ -38,4 +45,6 @@
     font-weight: 500;
     color: var(--white-color);
     bottom: 5%;
+    text-align: center;
+    width: 100%;
 }

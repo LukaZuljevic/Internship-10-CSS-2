@@ -22,6 +22,7 @@
 @import "./sections/sponsors/sponsors-table.css";
 @import "./sections/register/register.css";
 @import "./sections/gallery/gallery.css";
+@import "./sections/gallery/gallery-quotes.css";
 
 @font-face {
     font-family: "PP Neue Montreal Mono";
