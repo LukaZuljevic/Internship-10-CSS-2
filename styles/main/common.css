@@ -64,12 +64,16 @@
   background-color: transparent;
 }
 
-.speaker-section + .section-seperator,
+.speaker-image-section + .section-seperator,
 .location-section + .section-seperator {
   background-color: var(--page-background-color);
 }
 
-.schedule-section + .section-seperator,
+.speakers-section + .section-seperator,
 .location-section__content + .section-seperator {
   background-color: var(--location-section-background-color);
+}
+
+.schedule-section + .section-seperator{
+  background-color: var(--speakers-section-background-color);
 }

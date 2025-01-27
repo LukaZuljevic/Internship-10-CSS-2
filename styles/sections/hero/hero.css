@@ -12,7 +12,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: url("/assets/images/noise.webp");
+  background: url(/assets/images/noise.webp);
   opacity: 0.15;
 }
 
@@ -20,7 +20,7 @@
   display: flex;
   align-items: flex-end;
   height: 100%;
-  background: url("/assets/images/hero-background.jpg");
+  background: url(/assets/images/hero-background.jpg);
   background-size: cover;
   overflow-x: hidden;
 }

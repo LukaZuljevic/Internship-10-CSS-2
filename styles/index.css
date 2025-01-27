@@ -12,7 +12,7 @@
 @import "./sections/location/location-info.css";
 @import "./sections/location/location-date.css";
 @import "./sections/location/stamp.css";
-@import "./sections/speaker/speaker.css";
+@import "./sections/speaker-image/speaker.css";
 @import "./sections/schedule/schedule.css";
 @import "./sections/schedule/navigation.css";
 @import "./sections/schedule/event-item.css";
@@ -20,6 +20,7 @@
 @import "./sections/sponsors/sponsors.css";
 @import "./sections/sponsors/sponsors-animation.css";
 @import "./sections/sponsors/sponsors-table.css";
+@import "./sections/speakers/speakers.css";
 
 @font-face {
   font-family: "PP Neue Montreal Mono";

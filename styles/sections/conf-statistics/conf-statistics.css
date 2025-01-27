@@ -14,7 +14,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: url("../../../assets/images/noise.webp");
+    background: url(/assets/images/noise.webp);
     opacity: 0.15;
 }
 

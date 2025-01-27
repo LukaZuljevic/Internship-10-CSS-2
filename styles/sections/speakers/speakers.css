@@ -1,0 +1,42 @@
+.speakers-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--speakers-section-background-color);
+  max-height: 320dvh;
+  padding: 32px 0;
+  padding-top: 200px;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.speakers-section::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(/assets/images/noise.webp);
+  opacity: 0.15;
+  pointer-events: none;
+}
+
+
+.speakers-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  height: 100dvh;
+}
+
+.speakers-container .frame-wrapper > img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: 5;
+
+}
