@@ -2,6 +2,7 @@
     padding-top: 523px;
     background-color: var(--location-section-background-color);
     position: relative;
+    z-index: 2;
 }
 
 .location-section::before {

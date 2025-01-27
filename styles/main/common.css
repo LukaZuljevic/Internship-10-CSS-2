@@ -4,6 +4,7 @@
   mask-image: url(/assets/images/section-seperator.webp);
   height: 45px;
   width: 100%;
+  z-index: 2;
 }
 
 .section-seperator::before {
