@@ -1,4 +1,4 @@
-.registrate-section {
+.register-section {
     position: relative;
     background-color: var(--black-shade-2);
     display: flex;
@@ -8,7 +8,7 @@
     padding-bottom: 160px;
 }
 
-.registrate-section::before {
+.register-section::before {
     content: "";
     position: absolute;
     width: 100%;
@@ -25,24 +25,24 @@
     opacity: 0.5;
 }
 
-.registrate-section__head {
+.register-section__head {
     display: flex;
     flex-direction: column;
     padding-top: 160px;
 }
 
-.registrate-section__head > * {
+.register-section__head > * {
     text-align: center;
 }
 
-.registrate-section__head > p {
+.register-section__head > p {
     line-height: 16px;
     font-weight: 500;
     color: var(--white-color);
     opacity: 0.7;
 }
 
-.registrate-section__head > h1 {
+.register-section__head > h1 {
     font-family: "PP Neue Machina";
     font-size: 120px;
     line-height: 144px;
@@ -50,7 +50,7 @@
     color: var(--light-gray-color);
 }
 
-.registrate-section > img {
+.register-section > img {
     position: relative;
     width: 100%;
     top: -70px;
@@ -58,56 +58,42 @@
     filter: grayscale(100%);
 }
 
-.registrate-section > p {
+.register-section > p {
     color: var(--white-color);
     font-weight: 500;
     text-align: center;
 }
 
 @media (max-width: 1024px) {
-    .registrate-section {
+    .register-section {
         padding-bottom: 80px;
     }
 
-    .registrate-section__head {
-        display: flex;
-        flex-direction: column;
+    .register-section__head {
         padding-top: 80px;
     }
 
-    .registrate-section__head > h1 {
+    .register-section__head > h1 {
         font-size: 80px;
     }
 
-    .registrate-section > img {
+    .register-section > img {
         width: 150%;
         margin-bottom: 40px;
     }
 }
 
 @media (max-width: 767px) {
-    .registrate-section {
-        padding-bottom: 80px;
-    }
-
-    .registrate-section__head {
-        display: flex;
-        flex-direction: column;
-        padding-top: 80px;
-    }
-
-    .registrate-section__head > p {
+    .register-section__head > p {
         font-size: 12px;
     }
 
-    .registrate-section__head > h1 {
+    .register-section__head > h1 {
         font-size: 40px;
         line-height: 80px;
     }
 
-    .registrate-section > img {
-        width: 150%;
+    .register-section > img {
         top: -40px;
-        margin-bottom: 40px;
     }
 }
