@@ -24,13 +24,13 @@
     display: none;
 }
 
-.mobile-header {
+.mobile-menu__header {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.mobile-header p {
+.mobile-menu__header p {
     font-family: "PP Neue Montreal Mono";
     line-height: 16px;
     letter-spacing: 1px;
@@ -41,14 +41,14 @@
     cursor: pointer;
 }
 
-.mobile-nav {
+.mobile-menu__nav {
     display: inline-flex;
     flex-direction: column;
     align-items: flex-start;
     gap: 48px;
 }
 
-.mobile-nav a {
+.mobile-menu__nav a {
     color: var(--light-gray-color);
     text-align: center;
     text-decoration: none;

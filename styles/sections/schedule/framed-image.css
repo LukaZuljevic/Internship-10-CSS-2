@@ -1,0 +1,53 @@
+.schedule-image-wrapper {
+  top: 12%;
+  right: 20%;
+  width: 120px;
+  height: 150px;
+  position: absolute;
+}
+
+.schedule-image-wrapper img:nth-child(1) {
+  z-index: 3;
+  transform: rotate(-5deg);
+  background: url(/assets/images/schedule-image-background.png) rgb(0, 0, 0) -17px -50px /
+    128% 141% no-repeat;
+}
+
+.schedule-image-wrapper img:nth-child(2) {
+  z-index: 4;
+  width: 120px;
+  transform: rotate(-5deg);
+}
+
+.schedule-image-wrapper img:nth-child(3) {
+  z-index: 5;
+  pointer-events: none;
+  transform: rotate(-5deg);
+}
+
+.schedule-image-wrapper:hover {
+  top: 15%;
+  right: 25%;
+  transition: 0.5s ease-in-out;
+}
+
+.schedule-image-wrapper:hover img:nth-child(1) {
+  transform: scale(3) rotate(0deg);
+  transition: 0.5s ease-in-out;
+}
+
+.schedule-image-wrapper:hover img:nth-child(2) {
+  transform: scale(3) rotate(0deg);
+  transition: 0.5s ease-in-out;
+}
+
+.schedule-image-wrapper:hover img:nth-child(3) {
+  transform: scale(3) rotate(0deg);
+  transition: 0.5s ease-in-out;
+}
+
+@media (max-width: 1024px) {
+  .schedule-image-wrapper {
+    display: none;
+  }
+}
