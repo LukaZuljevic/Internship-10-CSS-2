@@ -55,6 +55,7 @@
     width: 100%;
     top: -70px;
     max-width: 1440px;
+    filter: grayscale(100%);
 }
 
 .registrate-section > p {
