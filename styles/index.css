@@ -20,17 +20,18 @@
 @import "./sections/sponsors/sponsors.css";
 @import "./sections/sponsors/sponsors-animation.css";
 @import "./sections/sponsors/sponsors-table.css";
+@import "./sections/registrate/registrate.css";
 
 @font-face {
-  font-family: "PP Neue Montreal Mono";
-  src: url("../assets/fonts/pp-neue-montreal-mono-book.ttf");
-  font-family: "PP Neue Montreal Mono";
-  src: url("../assets/fonts/pp-neue-montreal-mono-book.ttf");
+    font-family: "PP Neue Montreal Mono";
+    src: url("../assets/fonts/pp-neue-montreal-mono-book.ttf");
+    font-family: "PP Neue Montreal Mono";
+    src: url("../assets/fonts/pp-neue-montreal-mono-book.ttf");
 }
 
 @font-face {
-  font-family: "PP Neue Machina";
-  src: url("../assets/fonts/PPNeueMachina-Regular.otf");
-  font-family: "PP Neue Machina";
-  src: url("../assets/fonts/PPNeueMachina-Regular.otf");
+    font-family: "PP Neue Machina";
+    src: url("../assets/fonts/PPNeueMachina-Regular.otf");
+    font-family: "PP Neue Machina";
+    src: url("../assets/fonts/PPNeueMachina-Regular.otf");
 }
