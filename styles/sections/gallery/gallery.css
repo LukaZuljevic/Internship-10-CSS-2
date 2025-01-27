@@ -1,10 +1,11 @@
 .gallery-section .gallery-section__head {
     background-image: url(/assets/images/throwback.jpg);
-    background-position: 0px -30vw;
+    background-position: 0px -20vw;
     background-size: cover;
     height: 701px;
     width: 100%;
     position: relative;
+    overflow: hidden;
 }
 
 .gallery-section .gallery-section__head::before {
@@ -47,4 +48,23 @@
     bottom: 5%;
     text-align: center;
     width: 100%;
+}
+
+@media (max-width: 767px) {
+    .gallery-section .gallery-section__head {
+        height: 450px;
+        background-size: 120%;
+    }
+
+    .gallery-section .gallery-section__head::before {
+        height: 450px;
+    }
+
+    .gallery-section__head h1 {
+        font-size: 64px;
+    }
+
+    .gallery-section__head p {
+        padding-inline: 20%;
+    }
 }
