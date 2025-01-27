@@ -2,9 +2,9 @@
 @import "./sections/conf-statistics/title-and-image.css";
 @import "./sections/conf-statistics/info-and-statistics.css";
 @import "./sections/conf-statistics/gallery.css";
-@import "./common/variables.css";
-@import "./common/definitions.css";
-@import "./common/main.css";
+@import "./main/variables.css";
+@import "./main/definitions.css";
+@import "./main/common.css";
 @import "./sections/hero/header.css";
 @import "./sections/hero/hero.css";
 @import "./sections/hero/mobile-menu.css";

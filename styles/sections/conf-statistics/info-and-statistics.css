@@ -43,7 +43,7 @@
 }
 
 .conf-statistics__top-wrapper__info-and-statistics .statistic-number {
-  color: var(--red-stat-color);
+  color: var(--orange-color);
   text-align: center;
   font-family: "PP Neue Machina";
   font-size: 100px;

@@ -6,15 +6,6 @@
   position: absolute;
 }
 
-.schedule-image-wrapper img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
 .schedule-image-wrapper img:nth-child(1) {
   z-index: 3;
   transform: rotate(-5deg);
@@ -35,8 +26,8 @@
 }
 
 .schedule-image-wrapper:hover {
-  top: 20%;
-  right: 30%;
+  top: 15%;
+  right: 25%;
   transition: 0.5s ease-in-out;
 }
 

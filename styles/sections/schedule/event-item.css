@@ -77,37 +77,6 @@
   margin: 8px;
 }
 
-@media (max-width: 1024px) {
-  .schedule-item {
-    padding: 24px 0px;
-    flex-direction: column;
-    gap: 24px;
-  }
-  .schedule-item__time {
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-between;
-  }
-
-  .schedule-item__time span {
-    display: flex;
-    margin-right: 8px;
-  }
-
-  .schedule-item__info {
-    width: 100%;
-    align-items: flex-start;
-  }
-
-  .schedule-item__info p {
-    padding-left: 66px;
-  }
-
-  .plus-icon {
-    display: none;
-  }
-}
-
 @keyframes fadeIn {
   0% {
     opacity: 0;
@@ -151,4 +120,35 @@
 
 .schedule-item:nth-child(15) {
   animation-delay: 1.6s;
+}
+
+@media (max-width: 1024px) {
+  .schedule-item {
+    padding: 24px 0px;
+    flex-direction: column;
+    gap: 24px;
+  }
+  .schedule-item__time {
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .schedule-item__time span {
+    display: flex;
+    margin-right: 8px;
+  }
+
+  .schedule-item__info {
+    width: 100%;
+    align-items: flex-start;
+  }
+
+  .schedule-item__info p {
+    padding-left: 66px;
+  }
+
+  .plus-icon {
+    display: none;
+  }
 }

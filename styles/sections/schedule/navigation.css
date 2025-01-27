@@ -13,8 +13,8 @@
 }
 
 .date-nav input:checked + label {
-  color: var(--red-stat-color);
-  border-bottom: 3px solid var(--red-stat-color);
+  color: var(--orange-color);
+  border-bottom: 3px solid var(--orange-color);
 }
 
 .schedule-categories {
@@ -28,8 +28,8 @@
 }
 
 .schedule-categories input:checked + label {
-  color: var(--red-stat-color);
-  border-bottom: 3px solid var(--red-stat-color);
+  color: var(--orange-color);
+  border-bottom: 3px solid var(--orange-color);
 }
 
 .schedule-section__navigation label {
