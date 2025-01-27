@@ -91,10 +91,13 @@
 .author > p {
     line-height: 18px;
     text-transform: uppercase;
+    color: rgba(23, 22, 21, 0.6);
+    font-weight: bolder;
 }
 
 .author > p:first-of-type {
     margin-top: 20px;
+    margin-bottom: 10px;
 }
 
 @media (max-width: 1024px) {
@@ -136,11 +139,7 @@
         margin-right: 30px;
     }
 
-    .author > p {
-        font-weight: 500;
-    }
-
     .author > p:first-of-type {
-        margin: 0;
+        margin-top: 0;
     }
 }
