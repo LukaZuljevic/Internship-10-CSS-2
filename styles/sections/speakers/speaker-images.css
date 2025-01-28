@@ -126,8 +126,9 @@
   }
 
   .speakers-container .frame-wrapper {
-    width: 163px;
-    height: 204.259px;
+    width: 195.6px;
+    height: 245.11px;
+    margin-bottom: 8px;
   }
 
   .speakers-container .speaker:nth-child(1) {
@@ -163,8 +164,8 @@
 
 @media (max-width: 500px) {
   .speakers-container .frame-wrapper {
-    width: 130px;
-    height: 163px;
+    width: 163px;
+    height: 204px;
   }
 
   .speakers-container .speaker > h4 {
@@ -176,24 +177,15 @@
     width: 150px;
   }
 
+  .speakers-container .speaker:nth-child(5),
+  .speakers-container .speaker:nth-child(3),
   .speakers-container .speaker:nth-child(1) {
-    left: 0;
+    left: 16px;
   }
 
+  .speakers-container .speaker:nth-child(4),
   .speakers-container .speaker:nth-child(2) {
-    right: 0;
-  }
-
-  .speakers-container .speaker:nth-child(3) {
-    left: 0;
-  }
-
-  .speakers-container .speaker:nth-child(4) {
-    right: 0;
-  }
-
-  .speakers-container .speaker:nth-child(5) {
-    left: 0;
+    right: 16px;
   }
 
   .speakers-container .speaker:nth-child(6) {
