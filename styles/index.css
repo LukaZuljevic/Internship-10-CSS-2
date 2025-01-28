@@ -27,6 +27,8 @@
 @import "./sections/speakers/speaker-images.css";
 @import "./sections/speakers/image-animation.css";
 @import "./sections/faq/faq.css";
+@import "./sections/footer/footer.css";
+@import "./sections/closure/closure.css";
 
 @font-face {
     font-family: "PP Neue Montreal Mono";

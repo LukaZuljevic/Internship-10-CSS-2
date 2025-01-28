@@ -1,0 +1,137 @@
+.closure-section {
+    background-color: var(--black-shade-2);
+    position: relative;
+}
+
+.closure-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(/assets/images/noise.webp);
+    mix-blend-mode: soft-light;
+    opacity: 0.5;
+}
+
+.last-invitation {
+    background-image: url(/assets/images/A100.webp);
+    background-position: top;
+    background-size: cover;
+    height: 747px;
+    position: relative;
+}
+
+.last-invitation::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(/assets/images/noise.webp);
+    mix-blend-mode: soft-light;
+    opacity: 0.5;
+}
+
+.last-invitation h1 {
+    font-family: "PP Neue Machina";
+    font-size: 120px;
+    line-height: 120px;
+    color: var(--light-gray-color);
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+    position: absolute;
+    top: 30%;
+}
+
+.last-invitation p {
+    color: var(--white-color);
+    line-height: 16px;
+    text-align: center;
+    font-weight: 500;
+    width: 100%;
+    position: absolute;
+    top: 70%;
+}
+
+.last-invitation > img:first-of-type {
+    position: absolute;
+    height: 248px;
+    width: 224px;
+    top: -80px;
+    right: 100px;
+    transform: rotate(-20deg);
+}
+
+.last-invitation .duck-image {
+    position: absolute;
+    transform: scaleX(-1);
+    z-index: 1;
+    height: 392px;
+    width: 362px;
+    bottom: -80px;
+    left: 20px;
+}
+
+.last-invitation + .section-seperator {
+    background-color: var(--black-shade-2);
+}
+
+.last-invitation + .section-seperator::before {
+    mix-blend-mode: soft-light;
+    opacity: 0.5;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 320px;
+}
+
+.contact h1 {
+    font-family: "PP Neue Machina";
+    font-size: 120px;
+    font-weight: 500;
+    line-height: 120px;
+    color: var(--light-gray-color);
+    margin-bottom: 40px;
+}
+
+.contact > p {
+    color: var(--light-gray-color);
+    line-height: 16px;
+    font-weight: 500;
+    margin-bottom: 160px;
+}
+
+.social-media > img {
+    height: 162px;
+    position: relative;
+    z-index: 1;
+}
+
+.social-media > img:nth-child(2) {
+    top: 30px;
+}
+
+.social-media > img:nth-child(3) {
+    top: -30px;
+}
+
+.social-media > img:nth-child(4) {
+    top: 15px;
+}
+
+.contact > .dots {
+    background-image: radial-gradient(
+        circle,
+        rgba(255, 255, 255, 0.3) 1px,
+        transparent 0.3px
+    );
+    background-color: var(--black-shade-2);
+    width: 95%;
+}
