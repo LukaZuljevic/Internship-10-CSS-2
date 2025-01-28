@@ -99,6 +99,7 @@
     line-height: 120px;
     color: var(--light-gray-color);
     margin-bottom: 40px;
+    text-align: center;
 }
 
 .contact > p {
@@ -108,25 +109,39 @@
     margin-bottom: 160px;
 }
 
-.social-media > img {
+.social-media {
+    width: 100%;
+    overflow: hidden;
+    height: 230px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-media-list {
+    display: flex;
+}
+
+.social-media-list > img {
     height: 162px;
     position: relative;
     z-index: 1;
 }
 
-.social-media > img:nth-child(2) {
+.social-media-list > img:nth-child(2) {
     top: 30px;
 }
 
-.social-media > img:nth-child(3) {
+.social-media-list > img:nth-child(3) {
     top: -30px;
 }
 
-.social-media > img:nth-child(4) {
+.social-media-list > img:nth-child(4) {
     top: 15px;
 }
 
-.contact > .dots {
+.social-media > .dots {
     background-image: radial-gradient(
         circle,
         rgba(255, 255, 255, 0.3) 1px,
@@ -134,4 +149,79 @@
     );
     background-color: var(--black-shade-2);
     width: 95%;
+}
+
+@media (max-width: 1024px) {
+    .last-invitation > img:first-of-type {
+        height: 147px;
+        width: 133px;
+        right: 20px;
+    }
+
+    .last-invitation .duck-image {
+        height: 315px;
+        width: 291px;
+        left: -70px;
+    }
+
+    .last-invitation h1 {
+        font-size: 64px;
+        line-height: 62px;
+        top: 25%;
+    }
+
+    .last-invitation p {
+        top: 55%;
+    }
+
+    .contact {
+        padding-top: 160px;
+    }
+
+    .contact h1 {
+        font-size: 64px;
+        line-height: 62px;
+    }
+
+    .contact p {
+        margin-bottom: 120px;
+    }
+
+    .social-media {
+        height: 170px;
+    }
+
+    .social-media-list img {
+        height: 106px;
+    }
+
+    .social-media > .dots {
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .social-media {
+        height: 200px;
+    }
+
+    .social-media-list > img:nth-child(1) {
+        top: -20px;
+        left: 25px;
+    }
+
+    .social-media-list > img:nth-child(2) {
+        left: 10px;
+        top: 30px;
+    }
+
+    .social-media-list > img:nth-child(3) {
+        right: 10px;
+        top: -30px;
+    }
+
+    .social-media-list > img:nth-child(4) {
+        right: 25px;
+        top: 15px;
+    }
 }
