@@ -76,12 +76,12 @@
   }
 
   .speakers-container button {
-    top: 300px;
+    top: 350px;
   }
 }
 
 @media (max-width: 500px) {
   .speakers-container button {
-    top: 300px;
+    top: 350px;
   }
 }
