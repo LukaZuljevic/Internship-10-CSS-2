@@ -19,14 +19,8 @@
     opacity: 0.5;
 }
 
-.gallery-section + .section-seperator::before {
-    mix-blend-mode: soft-light;
-    opacity: 0.5;
-}
-
 .faq-section h1 {
     color: var(--light-gray-color);
-    z-index: 1;
     font-family: "PP Neue Machina";
     font-weight: 500;
     font-size: 120px;
@@ -39,7 +33,6 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    z-index: 1;
     gap: 60px;
     padding-bottom: 160px;
 }
@@ -74,11 +67,6 @@
 .question > label > p:first-of-type {
     font-weight: 500;
     width: 50%;
-}
-
-.question > label > .plus,
-.question > label > .minus {
-    font-size: 48px;
 }
 
 .question .minus,
