@@ -66,6 +66,7 @@
 .location-section > .dots {
     margin-inline: 55px;
     height: 2px;
+    width: auto;
     background-image: radial-gradient(
         circle,
         rgba(255, 255, 255, 0.3) 1px,
