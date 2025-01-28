@@ -25,7 +25,6 @@
 .schedule-item__time p:nth-child(1) {
   color: var(--black-shade-2);
   font-feature-settings: "ss03" on;
-  font-family: "PP Neue Montreal Mono";
   font-weight: 600;
   line-height: 16px;
   letter-spacing: 1px;

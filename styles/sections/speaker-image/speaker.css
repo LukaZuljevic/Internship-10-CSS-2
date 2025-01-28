@@ -1,4 +1,4 @@
-.speaker-section {
+.speaker-image-section {
   background: url(/assets/images/speaker-background.png);
   background-size: cover;
   background-position: center;
@@ -6,7 +6,7 @@
   padding-top: 500px;
 }
 
-.speaker-section h2 {
+.speaker-image-section h2 {
   color: var(--light-gray-color);
   font-feature-settings: "case" on, "ss12" on;
   font-family: "PP Neue Machina";
@@ -21,25 +21,25 @@
 }
 
 @media (max-width: 980px) {
-  .speaker-section h2 {
+  .speaker-image-section h2 {
     font-size: 80px;
   }
 }
 
 @media (max-width: 768px) {
-  .speaker-section h2 {
+  .speaker-image-section h2 {
     font-size: 60px;
   }
 }
 
 @media (max-width: 576px) {
-  .speaker-section h2 {
+  .speaker-image-section h2 {
     font-size: 40px;
   }
 
-  .speaker-section {
-    background: url(/assets/images/speaker-background-mobile.png)
-        lightgray 0px -135.098px / 107.534% 136.074% no-repeat,
+  .speaker-image-section {
+    background: url(/assets/images/speaker-background-mobile.png) lightgray 0px -135.098px /
+        107.534% 136.074% no-repeat,
       linear-gradient(0deg, rgba(0, 0, 0, 0.2) 0%, rgba(0, 0, 0, 0.2) 100%);
     background-blend-mode: normal, normal, lighten, normal;
     height: 749px;
@@ -48,13 +48,13 @@
 }
 
 @media (max-width: 320px) {
-  .speaker-section h2 {
+  .speaker-image-section h2 {
     font-size: 30px;
   }
 }
 
 @media (min-width: 1900px) {
-  .speaker-section {
+  .speaker-image-section {
     background-position: top;
     padding-top: 700px;
   }

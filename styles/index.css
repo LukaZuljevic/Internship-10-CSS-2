@@ -12,7 +12,7 @@
 @import "./sections/location/location-info.css";
 @import "./sections/location/location-date.css";
 @import "./sections/location/stamp.css";
-@import "./sections/speaker/speaker.css";
+@import "./sections/speaker-image/speaker.css";
 @import "./sections/schedule/schedule.css";
 @import "./sections/schedule/navigation.css";
 @import "./sections/schedule/event-item.css";
@@ -23,17 +23,16 @@
 @import "./sections/register/register.css";
 @import "./sections/gallery/gallery.css";
 @import "./sections/gallery/gallery-quotes.css";
+@import "./sections/speakers/speakers.css";
+@import "./sections/speakers/speaker-images.css";
+@import "./sections/speakers/image-animation.css";
 
 @font-face {
-    font-family: "PP Neue Montreal Mono";
-    src: url("../assets/fonts/pp-neue-montreal-mono-book.ttf");
-    font-family: "PP Neue Montreal Mono";
-    src: url("../assets/fonts/pp-neue-montreal-mono-book.ttf");
+  font-family: "PP Neue Montreal Mono";
+  src: url(/assets/fonts/pp-neue-montreal-mono-book.ttf);
 }
 
 @font-face {
-    font-family: "PP Neue Machina";
-    src: url("../assets/fonts/PPNeueMachina-Regular.otf");
-    font-family: "PP Neue Machina";
-    src: url("../assets/fonts/PPNeueMachina-Regular.otf");
+  font-family: "PP Neue Machina";
+  src: url(/assets/fonts/PPNeueMachina-Regular.otf);
 }
