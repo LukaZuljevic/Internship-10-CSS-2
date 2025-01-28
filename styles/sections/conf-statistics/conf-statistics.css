@@ -19,8 +19,8 @@
 }
 
 .conf-statistics__top-wrapper {
-  display: flex;
-  padding-bottom: 1.67vw;
+    display: flex;
+    padding-bottom: 1.67vw;
 }
 
 @media (max-width: 767px) {

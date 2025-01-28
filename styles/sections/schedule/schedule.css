@@ -1,13 +1,13 @@
 .schedule-section {
-  display: flex;
-  flex-direction: column;
-  gap: 98px;
-  background-color: var(--page-background-color);
-  max-height: 320dvh;
-  padding: 32px;
-  position: relative;
-  overflow: hidden;
-  padding-bottom: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 98px;
+    background-color: var(--page-background-color);
+    max-height: 320dvh;
+    padding: 32px;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 100px;
 }
 
 .schedule-section::before {
@@ -23,7 +23,7 @@
 }
 
 @media (max-width: 767px) {
-  .schedule-section {
-    padding-inline: 16px;
-  }
+    .schedule-section {
+        padding-inline: 16px;
+    }
 }

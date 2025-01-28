@@ -1,0 +1,99 @@
+.register-section {
+    position: relative;
+    background-color: var(--black-shade-2);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    overflow: hidden;
+    padding-bottom: 160px;
+}
+
+.register-section::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(/assets/images/noise-_LsklY-m.webp);
+    mix-blend-mode: soft-light;
+    opacity: 0.5;
+}
+
+.sponsors-section + .section-seperator::before {
+    mix-blend-mode: soft-light;
+    opacity: 0.5;
+}
+
+.register-section__head {
+    display: flex;
+    flex-direction: column;
+    padding-top: 160px;
+}
+
+.register-section__head > * {
+    text-align: center;
+}
+
+.register-section__head > p {
+    line-height: 16px;
+    font-weight: 500;
+    color: var(--white-color);
+    opacity: 0.7;
+}
+
+.register-section__head > h1 {
+    font-family: "PP Neue Machina";
+    font-size: 120px;
+    line-height: 144px;
+    font-weight: 500;
+    color: var(--light-gray-color);
+}
+
+.register-section > img {
+    position: relative;
+    width: 100%;
+    top: -70px;
+    max-width: 1440px;
+    filter: grayscale(100%);
+}
+
+.register-section > p {
+    color: var(--white-color);
+    font-weight: 500;
+    text-align: center;
+}
+
+@media (max-width: 1024px) {
+    .register-section {
+        padding-bottom: 80px;
+    }
+
+    .register-section__head {
+        padding-top: 80px;
+    }
+
+    .register-section__head > h1 {
+        font-size: 80px;
+    }
+
+    .register-section > img {
+        width: 150%;
+        margin-bottom: 40px;
+    }
+}
+
+@media (max-width: 767px) {
+    .register-section__head > p {
+        font-size: 12px;
+    }
+
+    .register-section__head > h1 {
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    .register-section > img {
+        top: -40px;
+    }
+}
