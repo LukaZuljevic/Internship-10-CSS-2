@@ -64,16 +64,7 @@
 
 .location-section > .dots {
     margin-inline: 55px;
-    height: 2px;
     width: auto;
-    background-image: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 0.3) 1px,
-        transparent 0.3px
-    );
-    background-size: 8px 2px;
-    background-repeat: repeat-x;
-    background-color: transparent;
 }
 
 @media (max-width: 1390px) {

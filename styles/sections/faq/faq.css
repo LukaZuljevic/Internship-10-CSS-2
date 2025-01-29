@@ -1,143 +1,138 @@
 .faq-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: var(--black-shade-2);
-    position: relative;
-    padding-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: var(--black-shade-2);
+  position: relative;
+  padding-top: 80px;
 }
 
 .faq-section::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-image: url(/assets/images/noise.webp);
-    mix-blend-mode: soft-light;
-    opacity: 0.5;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(/assets/images/noise.webp);
+  mix-blend-mode: soft-light;
+  opacity: 0.5;
 }
 
 .faq-section h1 {
-    color: var(--light-gray-color);
-    font-family: "PP Neue Machina";
-    font-weight: 500;
-    font-size: 120px;
-    line-height: 144px;
-    margin-bottom: 80px;
+  color: var(--light-gray-color);
+  font-family: "PP Neue Machina";
+  font-weight: 500;
+  font-size: 120px;
+  line-height: 144px;
+  margin-bottom: 80px;
 }
 
 .questions {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    gap: 60px;
-    padding-bottom: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  gap: 60px;
+  padding-bottom: 160px;
 }
 
 .questions .dots {
-    background-image: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 0.3) 1px,
-        transparent 0.3px
-    );
-    width: 80%;
+  width: 80%;
 }
 
 .question {
-    width: 80%;
+  width: 80%;
 }
 
 .question p {
-    color: var(--white-color);
-    opacity: 0.7;
-    font-family: "PP Neue Machina";
-    font-size: 24px;
-    line-height: 32px;
-    text-align: start;
+  color: var(--white-color);
+  opacity: 0.7;
+  font-family: "PP Neue Machina";
+  font-size: 24px;
+  line-height: 32px;
+  text-align: start;
 }
 
 .question > label {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
 }
 
 .question > label > p:first-of-type {
-    font-weight: 500;
-    width: 50%;
+  font-weight: 500;
+  width: 50%;
 }
 
 .question .minus,
 .answer,
 .question > input {
-    display: none;
+  display: none;
 }
 
 .toggle-answer:checked ~ .answer,
 .toggle-answer:checked ~ label > .minus {
-    display: block;
+  display: block;
 }
 
 .toggle-answer:checked ~ label > .plus {
-    display: none;
+  display: none;
 }
 
 .question .answer {
-    font-size: 14px;
-    line-height: 22px;
-    opacity: 0.5;
-    width: 50%;
-    margin-left: 26%;
-    position: relative;
-    top: 20px;
+  font-size: 14px;
+  line-height: 22px;
+  opacity: 0.5;
+  width: 50%;
+  margin-left: 26%;
+  position: relative;
+  top: 20px;
 }
 
 @media (max-width: 1024px) {
-    .faq-section h1 {
-        font-size: 64px;
-        line-height: 87.46px;
-    }
+  .faq-section h1 {
+    font-size: 64px;
+    line-height: 87.46px;
+  }
 
-    .questions {
-        gap: 30px;
-    }
+  .questions {
+    gap: 30px;
+  }
 
-    .questions .dots {
-        width: 90%;
-    }
+  .questions .dots {
+    width: 90%;
+  }
 
-    .question {
-        width: 90%;
-    }
+  .question {
+    width: 90%;
+  }
 
-    .question p {
-        font-size: 16px;
-        line-height: 24px;
-    }
+  .question p {
+    font-size: 16px;
+    line-height: 24px;
+  }
 
-    .plus {
-        display: none;
-    }
+  .plus {
+    display: none;
+  }
 
-    .toggle-answer:checked ~ label > .minus {
-        display: none;
-    }
+  .toggle-answer:checked ~ label > .minus {
+    display: none;
+  }
 
-    .question label {
-        justify-content: flex-start;
-        gap: 20px;
-    }
+  .question label {
+    justify-content: flex-start;
+    gap: 20px;
+  }
 
-    .question label > p:first-of-type {
-        width: 100%;
-    }
+  .question label > p:first-of-type {
+    width: 100%;
+  }
 
-    .question .answer {
-        position: static;
-        margin: 0;
-        padding: 20px 0px 0px 70px;
-        width: 100%;
-    }
+  .question .answer {
+    position: static;
+    margin: 0;
+    padding: 20px 0px 0px 70px;
+    width: 100%;
+  }
 }

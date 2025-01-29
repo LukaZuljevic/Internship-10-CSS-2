@@ -1,219 +1,213 @@
 .closure-section {
-    background-color: var(--black-shade-2);
-    position: relative;
+  background-color: var(--black-shade-2);
+  position: relative;
 }
 
 .closure-section::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-image: url(/assets/images/noise.webp);
-    mix-blend-mode: soft-light;
-    opacity: 0.5;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(/assets/images/noise.webp);
+  mix-blend-mode: soft-light;
+  opacity: 0.5;
 }
 
 .last-invitation {
-    background-image: url(/assets/images/A100.webp);
-    background-position: top;
-    background-size: cover;
-    height: 747px;
-    position: relative;
+  background-image: url(/assets/images/A100.webp);
+  background-position: top;
+  background-size: cover;
+  height: 747px;
+  position: relative;
 }
 
 .last-invitation::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    background-image: url(/assets/images/noise.webp);
-    mix-blend-mode: soft-light;
-    opacity: 0.5;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-image: url(/assets/images/noise.webp);
+  mix-blend-mode: soft-light;
+  opacity: 0.5;
 }
 
 .last-invitation h1 {
-    font-family: "PP Neue Machina";
-    font-size: 120px;
-    line-height: 120px;
-    color: var(--light-gray-color);
-    text-align: center;
-    font-weight: 500;
-    width: 100%;
-    position: absolute;
-    top: 30%;
+  font-family: "PP Neue Machina";
+  font-size: 120px;
+  line-height: 120px;
+  color: var(--light-gray-color);
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+  position: absolute;
+  top: 30%;
 }
 
 .last-invitation p {
-    color: var(--white-color);
-    line-height: 16px;
-    text-align: center;
-    font-weight: 500;
-    width: 100%;
-    position: absolute;
-    top: 70%;
+  color: var(--white-color);
+  line-height: 16px;
+  text-align: center;
+  font-weight: 500;
+  width: 100%;
+  position: absolute;
+  top: 70%;
 }
 
 .last-invitation > img:first-of-type {
-    position: absolute;
-    height: 248px;
-    width: 224px;
-    top: -140px;
-    right: 100px;
-    transform: rotate(-15deg);
+  position: absolute;
+  height: 248px;
+  width: 224px;
+  top: -140px;
+  right: 100px;
+  transform: rotate(-15deg);
 }
 
 .last-invitation .duck-image {
-    position: absolute;
-    transform: scaleX(-1);
-    z-index: 1;
-    height: 392px;
-    width: 362px;
-    bottom: -80px;
-    left: 20px;
+  position: absolute;
+  transform: scaleX(-1);
+  z-index: 1;
+  height: 392px;
+  width: 362px;
+  bottom: -80px;
+  left: 20px;
 }
 
 .contact {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-top: 320px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 320px;
 }
 
 .contact h1 {
-    font-family: "PP Neue Machina";
-    font-size: 120px;
-    font-weight: 500;
-    line-height: 120px;
-    color: var(--light-gray-color);
-    margin-bottom: 40px;
-    text-align: center;
+  font-family: "PP Neue Machina";
+  font-size: 120px;
+  font-weight: 500;
+  line-height: 120px;
+  color: var(--light-gray-color);
+  margin-bottom: 40px;
+  text-align: center;
 }
 
 .contact > p {
-    color: var(--light-gray-color);
-    line-height: 16px;
-    font-weight: 500;
-    margin-bottom: 160px;
+  color: var(--light-gray-color);
+  line-height: 16px;
+  font-weight: 500;
+  margin-bottom: 160px;
 }
 
 .social-media {
-    width: 100%;
-    overflow: hidden;
-    height: 230px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  width: 100%;
+  overflow: hidden;
+  height: 230px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .social-media-list {
-    display: flex;
+  display: flex;
 }
 
 .social-media-list > img {
-    height: 162px;
-    position: relative;
-    z-index: 1;
+  height: 162px;
+  position: relative;
+  z-index: 1;
 }
 
 .social-media-list > img:nth-child(2) {
-    top: 30px;
+  top: 30px;
 }
 
 .social-media-list > img:nth-child(3) {
-    top: -30px;
+  top: -30px;
 }
 
 .social-media-list > img:nth-child(4) {
-    top: 15px;
+  top: 15px;
 }
 
 .social-media > .dots {
-    background-image: radial-gradient(
-        circle,
-        rgba(255, 255, 255, 0.3) 1px,
-        transparent 0.3px
-    );
-    background-color: var(--black-shade-2);
-    width: 95%;
+  width: 95%;
 }
 
 @media (max-width: 1024px) {
-    .last-invitation > img:first-of-type {
-        height: 147px;
-        width: 133px;
-        right: 20px;
-        top: -80px;
-    }
+  .last-invitation > img:first-of-type {
+    height: 147px;
+    width: 133px;
+    right: 20px;
+    top: -80px;
+  }
 
-    .last-invitation .duck-image {
-        height: 315px;
-        width: 291px;
-        left: -70px;
-    }
+  .last-invitation .duck-image {
+    height: 315px;
+    width: 291px;
+    left: -70px;
+  }
 
-    .last-invitation h1 {
-        font-size: 64px;
-        line-height: 62px;
-        top: 25%;
-    }
+  .last-invitation h1 {
+    font-size: 64px;
+    line-height: 62px;
+    top: 25%;
+  }
 
-    .last-invitation p {
-        top: 55%;
-    }
+  .last-invitation p {
+    top: 55%;
+  }
 
-    .contact {
-        padding-top: 160px;
-    }
+  .contact {
+    padding-top: 160px;
+  }
 
-    .contact h1 {
-        font-size: 64px;
-        line-height: 62px;
-    }
+  .contact h1 {
+    font-size: 64px;
+    line-height: 62px;
+  }
 
-    .contact p {
-        margin-bottom: 120px;
-    }
+  .contact p {
+    margin-bottom: 120px;
+  }
 
-    .social-media {
-        height: 170px;
-    }
+  .social-media {
+    height: 170px;
+  }
 
-    .social-media-list img {
-        height: 106px;
-    }
+  .social-media-list img {
+    height: 106px;
+  }
 
-    .social-media > .dots {
-        width: 100%;
-    }
+  .social-media > .dots {
+    width: 100%;
+  }
 }
 
 @media (max-width: 767px) {
-    .social-media {
-        height: 200px;
-    }
+  .social-media {
+    height: 200px;
+  }
 
-    .social-media-list > img:nth-child(1) {
-        top: -20px;
-        left: 25px;
-    }
+  .social-media-list > img:nth-child(1) {
+    top: -20px;
+    left: 25px;
+  }
 
-    .social-media-list > img:nth-child(2) {
-        left: 10px;
-        top: 30px;
-    }
+  .social-media-list > img:nth-child(2) {
+    left: 10px;
+    top: 30px;
+  }
 
-    .social-media-list > img:nth-child(3) {
-        right: 10px;
-        top: -30px;
-    }
+  .social-media-list > img:nth-child(3) {
+    right: 10px;
+    top: -30px;
+  }
 
-    .social-media-list > img:nth-child(4) {
-        right: 25px;
-        top: 15px;
-    }
+  .social-media-list > img:nth-child(4) {
+    right: 25px;
+    top: 15px;
+  }
 }

@@ -20,11 +20,6 @@
     opacity: 0.5;
 }
 
-.sponsors-section + .section-seperator::before {
-    mix-blend-mode: soft-light;
-    opacity: 0.5;
-}
-
 .register-section__head {
     display: flex;
     flex-direction: column;
