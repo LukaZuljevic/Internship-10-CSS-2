@@ -61,9 +61,9 @@
     position: absolute;
     height: 248px;
     width: 224px;
-    top: -80px;
+    top: -140px;
     right: 100px;
-    transform: rotate(-20deg);
+    transform: rotate(-15deg);
 }
 
 .last-invitation .duck-image {
@@ -74,15 +74,6 @@
     width: 362px;
     bottom: -80px;
     left: 20px;
-}
-
-.last-invitation + .section-seperator {
-    background-color: var(--black-shade-2);
-}
-
-.last-invitation + .section-seperator::before {
-    mix-blend-mode: soft-light;
-    opacity: 0.5;
 }
 
 .contact {
@@ -156,6 +147,7 @@
         height: 147px;
         width: 133px;
         right: 20px;
+        top: -80px;
     }
 
     .last-invitation .duck-image {

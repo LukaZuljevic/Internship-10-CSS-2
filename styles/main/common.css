@@ -80,11 +80,13 @@
 }
 
 .sponsors-section + .section-seperator,
-.gallery-section + .section-seperator {
+.gallery-section + .section-seperator,
+.last-invitation + .section-seperator {
     background-color: var(--black-shade-2);
 }
 
-.gallery-section + .section-seperator::before {
+.gallery-section + .section-seperator::before,
+.last-invitation + .section-seperator::before {
     mix-blend-mode: soft-light;
     opacity: 0.5;
 }
