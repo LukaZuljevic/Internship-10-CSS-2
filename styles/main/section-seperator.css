@@ -18,6 +18,7 @@
   pointer-events: none;
 }
 
+.gallery-section__quotes .section-seperator:nth-of-type(3),
 .speaker-image-section + .section-seperator,
 .location-section + .section-seperator {
   background-color: var(--page-background-color);
@@ -32,19 +33,24 @@
   background-color: var(--speakers-section-background-color);
 }
 
+.gallery-section__quotes .section-seperator:nth-of-type(2),
 .sponsors-section + .section-seperator,
 .gallery-section + .section-seperator,
 .last-invitation + .section-seperator {
   background-color: var(--black-shade-2);
 }
 
+.sponsors-section + .section-seperator::before,
 .gallery-section + .section-seperator::before,
 .last-invitation + .section-seperator::before {
   mix-blend-mode: soft-light;
   opacity: 0.5;
 }
 
-.sponsors-section + .section-seperator::before {
-  mix-blend-mode: soft-light;
-  opacity: 0.5;
+.gallery-section__quotes .section-seperator:nth-of-type(1) {
+  background-color: var(--light-gray-color);
+}
+
+.gallery-section__quotes .section-seperator::before {
+  background-image: none;
 }
