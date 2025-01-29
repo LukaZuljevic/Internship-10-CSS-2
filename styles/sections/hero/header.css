@@ -33,6 +33,7 @@
   letter-spacing: 1px;
   font-weight: 500;
   color: var(--black-shade);
+  cursor: pointer;
 }
 
 .hamburger-menu,

@@ -84,11 +84,13 @@
   padding: 24px;
 }
 
-.hero__nav-bar p {
+.hero__nav-bar a {
+  text-decoration: none;
   color: var(--white-color);
   font-size: 16px;
   letter-spacing: 1px;
   z-index: 4;
+  cursor: pointer;
 }
 .mobile-register-button,
 .mobile-header-title {
