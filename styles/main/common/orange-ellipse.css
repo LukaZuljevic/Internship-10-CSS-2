@@ -1,0 +1,16 @@
+.orange-ellipse {
+  padding: 4px 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: url(/assets/images/ellipse.png) no-repeat;
+  background-position: -4.799px -3.104px;
+  background-size: 123.995% 130.419%;
+  color: var(--white-color);
+  font-family: PP Neue Montreal Mono, sans-serif;
+  line-height: 16px;
+  letter-spacing: 0.5px;
+  width: 50px;
+  height: 24px;
+}

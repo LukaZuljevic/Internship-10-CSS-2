@@ -4,7 +4,6 @@
 @import "./sections/conf-statistics/gallery.css";
 @import "./main/variables.css";
 @import "./main/definitions.css";
-@import "./main/common.css";
 @import "./sections/hero/header.css";
 @import "./sections/hero/hero.css";
 @import "./sections/hero/mobile-menu.css";
@@ -29,13 +28,18 @@
 @import "./sections/faq/faq.css";
 @import "./sections/footer/footer.css";
 @import "./sections/closure/closure.css";
+@import "./main/common/section-seperator.css";
+@import "./main/common/frame-wrapper.css";
+@import "./main/common/orange-ellipse.css";
+@import "./main/common/dots.css";
+@import "./main/common/noise.css";
 
 @font-face {
-    font-family: "PP Neue Montreal Mono";
-    src: url(/assets/fonts/pp-neue-montreal-mono-book.ttf);
+  font-family: "PP Neue Montreal Mono";
+  src: url(/assets/fonts/pp-neue-montreal-mono-book.ttf);
 }
 
 @font-face {
-    font-family: "PP Neue Machina";
-    src: url(/assets/fonts/PPNeueMachina-Regular.otf);
+  font-family: "PP Neue Machina";
+  src: url(/assets/fonts/PPNeueMachina-Regular.otf);
 }

@@ -5,17 +5,6 @@
   background: var(--page-background-color);
 }
 
-.hero::before {
-  content: "";
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: url(/assets/images/noise.webp);
-  opacity: 0.15;
-}
-
 .hero__content {
   display: flex;
   align-items: flex-end;
@@ -95,11 +84,13 @@
   padding: 24px;
 }
 
-.hero__nav-bar p {
+.hero__nav-bar a {
+  text-decoration: none;
   color: var(--white-color);
   font-size: 16px;
   letter-spacing: 1px;
   z-index: 4;
+  cursor: pointer;
 }
 .mobile-register-button,
 .mobile-header-title {
