@@ -36,6 +36,11 @@
   cursor: pointer;
 }
 
+.register-button:hover {
+  background: var(--black-shade);
+  color: var(--white-color);
+}
+
 .hamburger-menu,
 #menu-toggle {
   display: none;

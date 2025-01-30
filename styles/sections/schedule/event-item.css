@@ -76,6 +76,10 @@
   margin: 8px;
 }
 
+.plus-icon:hover {
+  cursor: pointer;
+}
+
 @keyframes fadeIn {
   0% {
     opacity: 0;
