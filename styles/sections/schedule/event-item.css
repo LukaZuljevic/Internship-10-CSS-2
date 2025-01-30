@@ -4,7 +4,11 @@
   padding: 36px 64px;
   align-items: center;
   opacity: 0;
-  animation: fadeIn 0.6s forwards;
+  transform: translateY(50px);
+  animation: fadeIn linear;
+  animation-timeline: view();
+  animation-range: entry 10% cover 40%;
+  animation-fill-mode: forwards;
 }
 
 .schedule-item__time {
@@ -81,48 +85,18 @@
 }
 
 @keyframes fadeIn {
-  0% {
+  from {
     opacity: 0;
-    visibility: hidden;
-    transform: translateY(30px);
+    transform: translateY(50px) scale(0.90);
   }
-  100% {
+  50% {
+    opacity: 0.5;
+    transform: translateY(15px) scale(1.30);
+  }
+  to {
     opacity: 1;
-    visibility: visible;
-    transform: translateY(0);
+    transform: translateY(0) scale(1);
   }
-}
-
-.schedule-item:nth-child(1) {
-  animation-delay: 0.2s;
-}
-
-.schedule-item:nth-child(3) {
-  animation-delay: 0.4s;
-}
-
-.schedule-item:nth-child(5) {
-  animation-delay: 0.6s;
-}
-
-.schedule-item:nth-child(7) {
-  animation-delay: 0.8s;
-}
-
-.schedule-item:nth-child(9) {
-  animation-delay: 1s;
-}
-
-.schedule-item:nth-child(11) {
-  animation-delay: 1.2s;
-}
-
-.schedule-item:nth-child(13) {
-  animation-delay: 1.4s;
-}
-
-.schedule-item:nth-child(15) {
-  animation-delay: 1.6s;
 }
 
 @media (max-width: 1024px) {
