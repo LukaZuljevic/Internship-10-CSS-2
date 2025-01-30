@@ -41,6 +41,12 @@
   width: 100%;
 }
 
+@media (min-width: 1800px) {
+  .speakers-container button {
+    font-size: 18px;
+  }
+}
+
 @media (max-width: 1024px) {
   .speakers-container button {
     bottom: 400px;

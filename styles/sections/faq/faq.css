@@ -77,6 +77,11 @@
   top: 20px;
 }
 
+.question .minus:hover,
+.question .plus:hover {
+  cursor: pointer;
+}
+
 @media (max-width: 1024px) {
   .faq-section h1 {
     font-size: 64px;

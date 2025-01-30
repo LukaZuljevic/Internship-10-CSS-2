@@ -92,6 +92,11 @@
   z-index: 4;
   cursor: pointer;
 }
+
+.hero__nav-bar a:hover {
+  color: var(--light-gray-color);
+}
+
 .mobile-register-button,
 .mobile-header-title {
   display: none;

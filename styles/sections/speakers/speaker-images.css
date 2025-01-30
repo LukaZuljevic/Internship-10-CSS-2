@@ -73,6 +73,12 @@
   opacity: 0.3;
 }
 
+@media (min-width: 2200px) {
+  .speakers-container {
+    width: 85%;
+  }
+}
+
 @media (max-width: 1300px) {
   .speakers-container .speaker:nth-child(2) {
     right: 15%;
